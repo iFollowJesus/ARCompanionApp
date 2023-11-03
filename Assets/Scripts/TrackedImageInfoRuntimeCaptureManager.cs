@@ -7,7 +7,7 @@ using UnityEngine.XR.ARSubsystems;
 using Random = UnityEngine.Random;
 
 //newlines begin
-public enum ImageObjectType
+/*public enum ImageObjectType
 {
     FlatObject,
 
@@ -19,7 +19,7 @@ public class ImageObject
     public ImageObjectType imageObjectType;
 
     public GameObject prefabObject;
-}
+}*/
 
 //newlines end
 
@@ -38,8 +38,8 @@ public class TrackedImageInfoRuntimeCaptureManager : MonoBehaviour
     private Button captureImageButton;
 
     //New code
-    [SerializeField]
-    private ImageObject[] imageObjects;
+    /*[SerializeField]
+    private ImageObject[] imageObjects;*/
     //end new code
 
     [SerializeField]
